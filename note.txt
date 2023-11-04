@@ -1,0 +1,43 @@
+MVC
+
+model -> database 
+
+view (resource/view/...)
+
+controller (app/Http/Controllers/....)
+        function
+        php artisan make:controller ControllerName
+
+route (routes/web.php)
+        Route::get('/name', function )
+
+
+
+
+----------------------
+
+protocol -> http, ....,
+
+http method -> 
+        get(read), 
+        post(create), 
+        put(update),
+        patch(update), 
+        delete(delete)
+
+http status code
+        100,
+        200,
+        300,
+        400,
+        500
+
+request -> server
+        url -> https://google.com
+        method -> get
+
+server -> response
+        data -> html,css,js
+        status code -> 200
+
+----------------------
